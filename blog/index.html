@@ -23,7 +23,7 @@
     <div class="site-header">
       <div class="wrapper">
         <div class="site-nav">
-          <a class="page-link" href="archive.html">Archive</a>
+          <a class="page-link" href="/archive.html">Archive</a>
           <a class="page-link" href="https://github.com/xfthhxk/blog/discussions/categories/posts">Discuss</a>
           <a class="page-link" href="https://github.com/xfthhxk">About</a>
           <a class="page-link" href="atom.xml">
@@ -32,7 +32,7 @@
         </div>
         <div>
           <h1 class="site-title">
-            <a class="page-link" href="index.html">Hakahaka</a>
+            <a class="page-link" href="/index.html">Hakahaka</a>
           </h1>
           <p>Mostly Clojure</p>
         </div>
@@ -41,7 +41,7 @@
 
     <div class="wrapper">
 
-      <div><h1><a href="blogging-with-babashka.html">Blogging with Babashka</a></h1><h1>Blogging with Babashka</h1><p>Well just like @borkdude, I felt the urge to have a more simple approach to blogging. This is the first post rendered using <code>babashka</code>.</p><p><i>Published: 2021-12-07</i></p></div><div><h1><a href="gcp-load-balancer.html">GCP Load Balancer</a></h1><h2>Overview</h2><p>I recently had to implement Cloud Armor which is a Web Application Firewall (WAF). I thought it would be pretty straight forward and could do it in a short period of time, but of course ended up taking a bit longer.</p><p>The original setup had a few Clojure services running off of App Engine; an API, a single page application (SPA) as well as the company's marketing site. We relied on App Engine custom domains and dispatch rules to route traffic to the appropriate service. Finally, there were two CDN enabled GCS buckets for various static resources. The buckets were already backend buckets connected to another load balancer.</p><p>Current URL scheme which we need to preserve:</p><pre><code>https://api.example.com # targets the api service
+      <div><h1><a href="posts/blogging-with-babashka.html">Blogging with Babashka</a></h1><p>Well just like @borkdude, I felt the urge to have a more simple approach to blogging. This is the first post rendered using <code>babashka</code>.</p><p><i>Published: 2021-12-07</i></p></div><div><h1><a href="posts/gcp-load-balancer.html">GCP Load Balancer</a></h1><h2>Overview</h2><p>I recently had to implement Cloud Armor which is a Web Application Firewall (WAF). I thought it would be pretty straight forward and could do it in a short period of time, but of course ended up taking a bit longer.</p><p>The original setup had a few Clojure services running off of App Engine; an API, a single page application (SPA) as well as the company's marketing site. We relied on App Engine custom domains and dispatch rules to route traffic to the appropriate service. Finally, there were two CDN enabled GCS buckets for various static resources. The buckets were already backend buckets connected to another load balancer.</p><p>Current URL scheme which we need to preserve:</p><pre><code>https://api.example.com # targets the api service
 https://app.example.com # targets the app service
 https://www.example.com # targets the marketing-site service
 https://static.example.com # targets 2 different backend buckets
@@ -128,7 +128,7 @@ gcloud compute forwarding-rules create forwarding-rule-redirect-http --address=s
 
       
       <div style="margin-bottom: 20px; float: right;">
-        <a class="page-link" href="archive.html">Archive</a>
+        <a class="page-link" href="/archive.html">Archive</a>
       </div>
       
     </div>

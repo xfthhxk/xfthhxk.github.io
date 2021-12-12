@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hakahaka</title>
-  <link href="https://xfthhxk.github.io/blogatom.xml" rel="self"/>
+  <link href="https://xfthhxk.github.io/blog/atom.xml" rel="self"/>
   <link href="https://xfthhxk.github.io/blog"/>
-  <updated>2021-12-12T21:54:44+00:00</updated>
+  <updated>2021-12-12T22:17:25+00:00</updated>
   <id>https://xfthhxk.github.io/blog</id>
   <author>
     <name>Amar Mehta</name>
   </author>
   <entry>
-    <id>https://xfthhxk.github.io/blogblogging-with-babashka.html</id>
-    <link href="https://xfthhxk.github.io/blogblogging-with-babashka.html"/>
+    <id>posts/blogging-with-babashka.html</id>
+    <link href="posts/blogging-with-babashka.html"/>
     <title>Blogging with Babashka</title>
     <updated>2021-12-07T23:59:59+00:00</updated>
     <content type="html">
-      <![CDATA[<h1>Blogging with Babashka</h1><p>Well just like @borkdude, I felt the urge to have a more simple approach to blogging. This is the first post rendered using <code>babashka</code>.</p>]]>
+      <![CDATA[<p>Well just like @borkdude, I felt the urge to have a more simple approach to blogging. This is the first post rendered using <code>babashka</code>.</p>]]>
     </content>
   </entry>
   <entry>
-    <id>https://xfthhxk.github.io/bloggcp-load-balancer.html</id>
-    <link href="https://xfthhxk.github.io/bloggcp-load-balancer.html"/>
+    <id>posts/gcp-load-balancer.html</id>
+    <link href="posts/gcp-load-balancer.html"/>
     <title>GCP Load Balancer</title>
     <updated>2021-07-15T23:59:59+00:00</updated>
     <content type="html">
