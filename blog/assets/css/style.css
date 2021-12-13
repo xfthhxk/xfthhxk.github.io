@@ -1,7 +1,7 @@
+/* borrowed from @borkdude */
 body {
-  /* borrowed from metaredux.com */
   font: 400 16px/1.5 Roboto,Helvetica,Arial,sans-serif;
-  margin: 0;
+  margin: 0 1rem;
   padding: 0;
 }
 
