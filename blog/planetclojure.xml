@@ -3,7 +3,7 @@
   <title>Hakahaka</title>
   <link href="https://xfthhxk.github.io/blog/atom.xml" rel="self"/>
   <link href="https://xfthhxk.github.io/blog"/>
-  <updated>2021-12-13T12:05:54+00:00</updated>
+  <updated>2021-12-15T00:14:24+00:00</updated>
   <id>https://xfthhxk.github.io/blog</id>
   <author>
     <name>Amar Mehta</name>
@@ -12,9 +12,9 @@
     <id>posts/blogging-with-babashka.html</id>
     <link href="posts/blogging-with-babashka.html"/>
     <title>Blogging with Babashka</title>
-    <updated>2021-12-07T23:59:59+00:00</updated>
+    <updated>2021-12-14T23:59:59+00:00</updated>
     <content type="html">
-      <![CDATA[<p>Well just like @borkdude, I felt the urge to have a more simple approach to blogging. This is the first post rendered using <code>babashka</code>.</p>]]>
+      <![CDATA[<p>The prolific <a href='https://github.com/borkdude'>@borkdude</a> has inspired me to take a shot at blogging with <a href='https://github.com/babashka/babashka'>babashka</a>. I am using his approach as described <a href='https://blog.michielborkent.nl/migrating-octopress-to-babashka.html'>here</a>.</p><p>I've tweaked the code a bit so that I can run <code>bb watch</code> which</p><ul><li>starts an http server on port <code>8080</code> by default</li><li>watches and compiles markdown files to html</li><li>ensures html files have <a href='https://livejs.com'>live.js</a> loaded</li></ul><p><code>live.js</code> polls the server with <code>head</code> requests and looks at headers like <code>etag</code>, <code>last-modified</code> and <code>content-type</code> to determine if the page should be reloaded.</p><p>It was interesting to learn that the babashka <a href='https://github.com/babashka/pod-babashka-filewatcher'>filewatcher</a> pod is written in Rust.</p><p>This blog's source is <a href='https://github.com/xfthhxk/blog'>here</a>.</p>]]>
     </content>
   </entry>
   <entry>

@@ -15,6 +15,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js" integrity="sha512-Pbb8o120v5/hN/a6LjF4N4Lxou+xYZ0QcVF8J6TWhBbHmctQWd8O6xTDmHpE/91OjPzCk4JRoiJsexHYg4SotQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/languages/clojure.min.js" integrity="sha512-GIeXBgFGG/Jkz4Ww9+AckIKcMdpODoSojao/3ALL7bQz2CXVRqGaIOam7/hR9+rn1X953S85c05Qm9jqIxYc8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
+    
+
+
     <link type="application/atom+xml" rel="alternate" href="blog/atom.xml" title="Hakahaka">
     <link rel="stylesheet" href="/blog/assets/css/style.css">
   </head>
@@ -42,8 +46,8 @@
     <div class="wrapper">
 
       <h1>Blogging with Babashka</h1>
-<p>Well just like @borkdude, I felt the urge to have a more simple approach to blogging. This is the first post rendered using <code>babashka</code>.</p>
-<p><i>Published: 2021-12-07</i></p>
+<p>The prolific <a href='https://github.com/borkdude'>@borkdude</a> has inspired me to take a shot at blogging with <a href='https://github.com/babashka/babashka'>babashka</a>. I am using his approach as described <a href='https://blog.michielborkent.nl/migrating-octopress-to-babashka.html'>here</a>.</p><p>I've tweaked the code a bit so that I can run <code>bb watch</code> which</p><ul><li>starts an http server on port <code>8080</code> by default</li><li>watches and compiles markdown files to html</li><li>ensures html files have <a href='https://livejs.com'>live.js</a> loaded</li></ul><p><code>live.js</code> polls the server with <code>head</code> requests and looks at headers like <code>etag</code>, <code>last-modified</code> and <code>content-type</code> to determine if the page should be reloaded.</p><p>It was interesting to learn that the babashka <a href='https://github.com/babashka/pod-babashka-filewatcher'>filewatcher</a> pod is written in Rust.</p><p>This blog's source is <a href='https://github.com/xfthhxk/blog'>here</a>.</p>
+<p><i>Published: 2021-12-14</i></p>
 
 
       
