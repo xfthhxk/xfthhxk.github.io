@@ -3,14 +3,14 @@
   <title>Hakahaka</title>
   <link href="https://xfthhxk.github.io/blog/atom.xml" rel="self"/>
   <link href="https://xfthhxk.github.io/blog"/>
-  <updated>2021-12-15T00:18:53+00:00</updated>
+  <updated>2021-12-15T00:23:26+00:00</updated>
   <id>https://xfthhxk.github.io/blog</id>
   <author>
     <name>Amar Mehta</name>
   </author>
   <entry>
-    <id>posts/blogging-with-babashka.html</id>
-    <link href="posts/blogging-with-babashka.html"/>
+    <id>https://xfthhxk.github.io/blog/posts/blogging-with-babashka.html</id>
+    <link href="/posts/blogging-with-babashka.html"/>
     <title>Blogging with Babashka</title>
     <updated>2021-12-14T23:59:59+00:00</updated>
     <content type="html">
@@ -18,8 +18,8 @@
     </content>
   </entry>
   <entry>
-    <id>posts/gcp-load-balancer.html</id>
-    <link href="posts/gcp-load-balancer.html"/>
+    <id>https://xfthhxk.github.io/blog/posts/gcp-load-balancer.html</id>
+    <link href="/posts/gcp-load-balancer.html"/>
     <title>GCP Load Balancer</title>
     <updated>2021-07-15T23:59:59+00:00</updated>
     <content type="html">
